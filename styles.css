@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+#hero {
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #1f1f1f;
+}
+#bio  {
+    align-items: center;
+    text-align: center;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+
+}
+
+.band-photo {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
+
+.band-logo {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+}
+
+#lineup {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+
+}
+
+a {
+    /* text-decoration: none; */
+    color: #e0e0e0;
+}
+
+#social-media {
+    /* background-color: #1f1f1f; */
+    text-align: center;
+    padding: 20px;
+}
+
+#social-media ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#social-media a {
+    text-decoration: none;
+    color: #e0e0e0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .band-photo {
+        max-width: 100%;
+    }
+
+    .band-logo {
+        max-width: 100%;
+    }
+}
