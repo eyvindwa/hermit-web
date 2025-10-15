@@ -44,8 +44,21 @@ nav a {
     padding: 20px;
 
 }
+#album {
+   align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #1f1f1f;
+}
+
 
 .band-photo {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
+
+.album-cover {
     width: 100%;
     max-width: 700px;
     height: auto;
@@ -60,8 +73,7 @@ nav a {
 #lineup {
     text-align: center;
     padding: 20px;
-    background-color: #1f1f1f;
-
+    /* background-color: #1f1f1f; */
 }
 
 a {
@@ -70,7 +82,7 @@ a {
 }
 
 #social-media {
-    /* background-color: #1f1f1f; */
+    background-color: #1f1f1f;
     text-align: center;
     padding: 20px;
 }
@@ -90,7 +102,7 @@ a {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #1f1f1f;
+    /* background-color: #1f1f1f; */
 }
 
 @media (max-width: 768px) {
@@ -110,4 +122,13 @@ footer {
     .band-logo {
         max-width: 100%;
     }
+
+    .album-cover {
+        max-width: 100%;
+    }
+    
+    #album div {
+        max-width: 100%;
+    }
+
 }
