@@ -79,7 +79,7 @@ nav a {
 #lineup {
     text-align: center;
     padding: 20px;
-    /* background-color: #1f1f1f; */
+    background-color: #1f1f1f;
 }
 
 a {
@@ -88,7 +88,7 @@ a {
 }
 
 #social-media {
-    background-color: #1f1f1f;
+   /* background-color: #1f1f1f; */
     text-align: center;
     padding: 20px;
 }
